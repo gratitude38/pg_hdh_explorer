@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
 
-st.set_page_config(page_title="HDH Data Explorer — FT Style", layout="wide")
+st.set_page_config(page_title="ParaGeo HDH Data Explorer", layout="wide")
 
 FT_COLORS = ["#0F5499","#E94164","#1B7F79","#E88900","#6E358B","#0072B2","#7A7D7D","#A23A3A","#3B7EA1","#8A8C0E"]
 FT_TEMPLATE = dict(layout=dict(
