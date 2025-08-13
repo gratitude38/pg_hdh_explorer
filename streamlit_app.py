@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
 
-st.set_page_config(page_title="ParaGeo HDH Data Explorer", layout="wide")
+st.set_page_config(page_title="ParaGeo HDH Plot", layout="wide")
 
 FT_COLORS = ["#0F5499","#E94164","#1B7F79","#E88900","#6E358B","#0072B2","#7A7D7D","#A23A3A","#3B7EA1","#8A8C0E"]
 FT_TEMPLATE = dict(layout=dict(
@@ -129,7 +129,7 @@ if "_sources" not in st.session_state:
     st.session_state["_sources"] = {}  # name -> {"bytes":..., "path":..., "kind":"upload"/"path"}
 
 with st.sidebar:
-    st.title("HDH Data Explorer")
+    st.title("ParaGeo HDH Plot")
 
     st.header("Import")
     # Uploader (browser) sources
