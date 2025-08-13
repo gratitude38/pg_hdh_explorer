@@ -1,8 +1,6 @@
 import io
 import os
 import re
-from typing import List, Tuple, Optional
-
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
