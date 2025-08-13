@@ -146,7 +146,7 @@ with st.sidebar:
     st.session_state["_sources"] = new_sources
 
     # Directory-based .hdh loader
-    with st.expander("Load directory of .hdh files (enables true refresh)"):
+    with st.expander("Load directory of .hdh files (for local run only, enables true refresh)"):
         dir_path = st.text_input("Directory path", value=st.session_state.get("_dir_path",""))
         c1, c2 = st.columns([1,1])
         with c1:
