@@ -134,8 +134,8 @@ with st.sidebar:
     st.header("Import")
     # Uploader (browser) sources
     upl_key = f"uploader_v{st.session_state['_upl_version']}"
-    upl_files = st.file_uploader("Add data sources (.hdh)",
-                                 type=["hdh","csv","txt"],
+    upl_files = st.file_uploader("Add data sources",
+                                 type=["hdh only"],
                                  accept_multiple_files=True,
                                  key=upl_key)
     # Rebuild upload-kind entries from uploader
